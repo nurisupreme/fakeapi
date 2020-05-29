@@ -1,6 +1,12 @@
 {
   "modified_partion": [
-    { "id": "convex", "haha": "Post 1" },
+    { 
+      "id": "convex", 
+      "responce": {
+         "query": "SELECT * FROM MYSQL",
+         "list": ["Ford", "BMW", "Audi"]
+      } 
+    },
     { "id": "concrete", "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ],
